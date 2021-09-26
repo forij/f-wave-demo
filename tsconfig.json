@@ -8,5 +8,19 @@
         "moduleResolution": "node",
         "strict": true,
         "sourceMap": true,
-    }
+        "baseUrl": ".",
+        "lib": [ /* Specify library files to be included in the compilation:  */
+            "es2019",
+            "dom"
+        ],
+        "paths": {
+            "@root/*": ["src/ts/*"],
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }
