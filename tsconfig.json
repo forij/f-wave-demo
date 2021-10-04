@@ -11,7 +11,7 @@
         "baseUrl": ".",
         "lib": [ /* Specify library files to be included in the compilation:  */
             "es2019",
-            "dom"
+            "dom"            
         ],
         "paths": {
             "@root/*": ["src/ts/*"],
